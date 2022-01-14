@@ -12,4 +12,4 @@
   </p>
   
 </p>
- <h4 align="center"><a href="https://github.com/J20Marques">João Marques</a>, <a href="https://github.com/JoseMartinsIstec">José Martins</a>, João Félix e Vasco Paulo.</h4>
+ <h4 align="center"><a href="https://github.com/J20Marques">João Marques</a>, <a href="https://github.com/JoseMartinsIstec">José Martins</a>, <a href="https://github.com/DarberFelix">João Félix</a> e <a href="https://github.com/vascopaulo">Vasco Paulo</a>.</h4>
