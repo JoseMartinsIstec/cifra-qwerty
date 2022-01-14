@@ -1,3 +1,22 @@
+<!--
+
+________  __      _______________________________________.___.
+\_____  \/  \    /  \_   _____/\______   \__    ___/\__  |   |
+ /  / \  \   \/\/   /|    __)_  |       _/ |    |    /   |   |
+/   \_/.  \        / |        \ |    |   \ |    |    \____   |
+\_____\ \_/\__/\  / /_______  / |____|_  / |____|    / ______|
+       \__>     \/          \/         \/            \/       
+
+                  Criptografia 2021/2022
+
+   João Marques 35118, José Martins 35121, João Félix 35126, Vasco Paulo 35139
+
+
+
+ -->
+
+
+
 <!DOCTYPE html>
 <html lang="pt">
 
@@ -16,7 +35,7 @@
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
+  <!-- Ficheiros CSS -->
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
@@ -24,7 +43,7 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <!-- Template Main CSS File -->
+  <!-- Template CSS -->
   <link href="assets/css/style.css" rel="stylesheet">
   <script src="https://unpkg.com/boxicons@2.1.1/dist/boxicons.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -32,7 +51,7 @@
 </head>
 
 <body>
-  <!-- ======= Header ======= -->
+  <!-- ======= Inicio ======= -->
   <header id="header" class="d-flex align-items-center">
     <div class="container d-flex align-items-center justify-content-between">
 
@@ -57,7 +76,7 @@
 
     </div>
   </header>
-  <!-- End Header -->
+  <!-- Fim Header -->
 
   <!-- ======= SECTION ======= -->
   <section id="hero" class="d-flex align-items-center">
@@ -97,7 +116,7 @@
       </div>
     </section><!-- End SOBRE Section -->
 
-    <!-- ======= Why Us Section ======= -->
+    <!-- ======= Principios Basicos ======= -->
     <section class="why-us">
       <div class="container">
         <h3 style="text-align: center; font-weight: bold;"> Os quatro princípios básicos da Criptografia:</h3>
@@ -132,9 +151,9 @@
           </div>
         </div>
       </div>
-    </section><!-- End Why Us Section -->
+    </section><!--Fim Principios Basicos -->
 
-    <!-- ======= Services Section ======= -->
+    <!-- ======= PseudoCodigo Section ======= -->
     <section id="pseudocodigo" class="services">
       <div class="container">
 
@@ -156,43 +175,43 @@
               <pre>
                 <code>
                   <h3>Encriptar</h3>
-              alfabeto[]={a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z}
+                                            alfabeto[]={a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z}
 
-              qwerty[]={q,w,e,r,t,y,u,i,o,p,a,s,d,f,g,h,j,k,l,z,x,c,v,b,n,m}
+                                            qwerty[]={q,w,e,r,t,y,u,i,o,p,a,s,d,f,g,h,j,k,l,z,x,c,v,b,n,m}
 
-              texto = ler()
+                                            texto = ler()
 
-              texto = eliminar espaços()
+                                            texto = eliminar espaços()
 
-              para i<-0 até ao comprimento (texto) faça
+                                            para i<-0 até ao comprimento (texto) faça
 
-              Para j<-0 até 26 faça
+                                            Para j<-0 até 26 faça
 
-              Se texto[i]==alfabeto[j] então
+                                            Se texto[i]==alfabeto[j] então
 
-              textocifrado += qwerty[j]
+                                            textocifrado += qwerty[j]
 
-              Imprimir(textocifrado)
+                                            Imprimir(textocifrado)
 
 
                   <h3>Desencriptar</h3>
-              alfabeto[]={a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z}
+                                            alfabeto[]={a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z}
 
-              qwerty[]={q,w,e,r,t,y,u,i,o,p,a,s,d,f,g,h,j,k,l,z,x,c,v,b,n,m}
+                                            qwerty[]={q,w,e,r,t,y,u,i,o,p,a,s,d,f,g,h,j,k,l,z,x,c,v,b,n,m}
 
-              texto = ler()
+                                            texto = ler()
 
-              texto = eliminar espaços()
+                                            texto = eliminar espaços()
 
-              para i<-0 até ao comprimento (texto) faça
+                                            para i<-0 até ao comprimento (texto) faça
 
-              Para j<-0 até 26 faça
+                                            Para j<-0 até 26 faça
 
-              Se texto[i]==qwerty[j] então
+                                            Se texto[i]==qwerty[j] então
 
-              textoclaro += alfabeto[j]
-                      
-              Imprimir(textoclaro)
+                                            textoclaro += alfabeto[j]
+                                                    
+                                            Imprimir(textoclaro)
                 </code>
               </pre>
             </div>
@@ -201,9 +220,9 @@
         </div>
 
       </div>
-    </section><!-- End Services Section -->
+    </section><!-- Fim PseudoCodigo Section -->
 
-    <!-- ======= Portfolio Section ======= -->
+    <!-- ======= JavaScript Section ======= -->
     <section id="javascript" class="services">
       <div class="container">
 
@@ -224,62 +243,62 @@
           <div class="styleText" id="minimizarJava">
               <pre>
                 <code>
-                  $(function() {
-                    $(document).on('input','#txtencriptar',function () { 
-                      encriptar();
-                    });
-                    $(document).on('input','#txtdesencriptar',function () { 
-                        desencriptar();
-                      });
-                    var alfabeto = 'abcdefghijklmnopqrstuvwxyz'.split("");
-                    var qwerty = "qwertyuiopasdfghjklzxcvbnm".split("");
-      
-                    function encriptar() {
-                      var chars = $('#txtencriptar').val();
-                      var ciphertext = "";
-                      var indivChars = chars.split('');
-                      for (i = 0; i < indivChars.length; i++) {
-                        lowerChar = indivChars[i].toLowerCase();
-                        characterIndex = alfabeto.indexOf(lowerChar);
-                        if (characterIndex > -1) {
-                            ciphertext += qwerty[characterIndex];
-                        } else {
-                          ciphertext += indivChars[i];
-                        }
-                      }
-                      $('#txtdesencriptar').val(ciphertext);
-                    }
-      
-                    function desencriptar(){
-                      var chars = $('#txtdesencriptar').val();
-                      var ciphertext = "";
-                      var indivChars = chars.split(' ');
-                      for (i = 0; i < indivChars.length; i++) {
-                        var j = 0;
-                        while (j < indivChars[i].length) {
-                          charGroup = indivChars[i].substr(j, 1);
-                            characterIndex = qwerty.indexOf(charGroup.toLowerCase());
-                          if (characterIndex > -1) {
-                            ciphertext += alfabeto[characterIndex];
-                            j = j + 1;
-                          } else {
-                            ciphertext += charGroup.charAt(0);
-                            j = j + 1;
-                          }
-                        }
-                        if ((i + 1) < indivChars.length) {
-                          ciphertext += ' ';
-                        }
-                      }
-                      $('#txtencriptar').val(ciphertext);
-                    }
-                  });
+                                            $(function() {
+                                              $(document).on('input','#txtencriptar',function () { 
+                                                encriptar();
+                                              });
+                                              $(document).on('input','#txtdesencriptar',function () { 
+                                                  desencriptar();
+                                                });
+                                              var alfabeto = 'abcdefghijklmnopqrstuvwxyz'.split("");
+                                              var qwerty = "qwertyuiopasdfghjklzxcvbnm".split("");
+                                
+                                              function encriptar() {
+                                                var chars = $('#txtencriptar').val();
+                                                var ciphertext = "";
+                                                var indivChars = chars.split('');
+                                                for (i = 0; i < indivChars.length; i++) {
+                                                  lowerChar = indivChars[i].toLowerCase();
+                                                  characterIndex = alfabeto.indexOf(lowerChar);
+                                                  if (characterIndex > -1) {
+                                                      ciphertext += qwerty[characterIndex];
+                                                  } else {
+                                                    ciphertext += indivChars[i];
+                                                  }
+                                                }
+                                                $('#txtdesencriptar').val(ciphertext);
+                                              }
+                                
+                                              function desencriptar(){
+                                                var chars = $('#txtdesencriptar').val();
+                                                var ciphertext = "";
+                                                var indivChars = chars.split(' ');
+                                                for (i = 0; i < indivChars.length; i++) {
+                                                  var j = 0;
+                                                  while (j < indivChars[i].length) {
+                                                    charGroup = indivChars[i].substr(j, 1);
+                                                      characterIndex = qwerty.indexOf(charGroup.toLowerCase());
+                                                    if (characterIndex > -1) {
+                                                      ciphertext += alfabeto[characterIndex];
+                                                      j = j + 1;
+                                                    } else {
+                                                      ciphertext += charGroup.charAt(0);
+                                                      j = j + 1;
+                                                    }
+                                                  }
+                                                  if ((i + 1) < indivChars.length) {
+                                                    ciphertext += ' ';
+                                                  }
+                                                }
+                                                $('#txtencriptar').val(ciphertext);
+                                              }
+                                            });
                 </code>
               </pre>
             </div>
         </div>
     </div>
-    </section><!-- End Portfolio Section -->
+    </section><!-- Fim JavaScript Section -->
     
     <!-- ======= Team Section ======= -->
     <section id="team" class="team">
@@ -332,7 +351,7 @@
       </div>
     </section><!-- End Team Section -->
 
-    <!-- ======= Contact Section ======= -->
+    <!-- ======= Experimentar Section ======= -->
     <section id="experimentar" class="services">
       <div class="container">
 
@@ -362,7 +381,7 @@
         </div>
 
       </div>
-    </section><!-- End Services Section -->
+    </section><!-- Fim Experimentar Section -->
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
@@ -373,10 +392,6 @@
         Projeto Final <strong><span>Criptografia</span></strong>. Informática Turma: B
       </div>
       <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/day-multipurpose-html-template-for-free/ -->
         Projeto Realizador por:
         João Marques,
         João Félix,

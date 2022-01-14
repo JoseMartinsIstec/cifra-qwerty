@@ -240,23 +240,27 @@
 
 })()
 
+var y = document.getElementById("minimizarPseudo");
+y.style.display="none";
+
 function minimizePseudo() {
-  var x = document.getElementById("minimizarPseudo");
-  x.style.display="none";
+  y.style.display="none";
 }
 
 function maximizePseudo() {
-  var x = document.getElementById("minimizarPseudo");
-  x.style.display="block";
+  y.style.display="block";
 }
 
+var x = document.getElementById("minimizarJava");
+  x.style.display="none";
+
 function minimizeJava() {
-  var x = document.getElementById("minimizarJava");
   x.style.display="none";
 }
 
 function maximizeJava() {
-  var x = document.getElementById("minimizarJava");
   x.style.display="block";
 }
+
+
 
