@@ -10,4 +10,6 @@
     <br />
     <a href="https://josemartinsistec.github.io/cifra-qwerty/" target=“_blank”>Ver Demo</a>
   </p>
+  
 </p>
+ <h4 align="center">João Marques, José Martins, João Félix e Vasco Paulo.</h4>
