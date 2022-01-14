@@ -12,4 +12,4 @@
   </p>
   
 </p>
- <h4 align="center">João Marques, José Martins, João Félix e Vasco Paulo.</h4>
+ <h4 align="center"><a href="https://github.com/J20Marques"João Marques</a>, José Martins, João Félix e Vasco Paulo.</h4>
