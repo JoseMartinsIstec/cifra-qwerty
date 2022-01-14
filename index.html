@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Criptografia - Cifra qwerty</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <script src="https://unpkg.com/boxicons@2.1.1/dist/boxicons.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="assets/js/qwerty.js"></script>
+</head>
+
+<body>
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <h1 class="logo"><a href="index.html">Qwerty</a></h1>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">INÍCIO</a></li>
+          <li><a class="nav-link scrollto" href="#about">CIFRA QWERTY</a></li>
+          <li class="nava-link dropdown"><a href="#pseudocodigo"><span>CÓDIGO</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#pseudocodigo">PSEUDO-CÓDIGO</a></li>
+              <li><a href="#javascript">JAVASCRIPT</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="#team">EQUIPA</a></li>
+          <li><a class="nav-link scrollto" href="#experimentar">EXPERIMENTAR</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+      <!-- .navbar -->
+
+    </div>
+  </header>
+  <!-- End Header -->
+
+  <!-- ======= SECTION ======= -->
+  <section id="hero" class="d-flex align-items-center">
+    <div class="container position-relative" data-aos="fade-up" data-aos-delay="500">
+      <h1>Cifra Qwerty</h1>
+      <h2>A extensão da cifra de Vigenère.</h2>
+      <a href="#experimentar" class="btn-get-started scrollto">Experimentar</a>
+    </div>
+  </section>
+  <!-- End SECTION -->
+
+  <main id="main">
+
+    <!-- ======= Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left">
+            <img src="assets/img/sobre-foto.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
+            <h3>Resumo Histórico</h3>
+            <br>
+            <h4>Criptografia</h4>
+            <p style="margin-top: 20px;">
+              A criptografia é definida como a arte e a ciência de fazer e desfazer códigos ou mensagens secretas. 
+              Um dado original chamado de texto simples é codificado no texto cifrado por meio do processo de criptografia e o texto simples é restaurado do texto cifrado por meio da descriptografia. 
+              Uma chave é usada para configurar um sistema de criptografia para criptografia e descriptografia. 
+            </p>
+            <br>
+            <h4>Cifra Qwerty</h4>
+            <p>A cifra qwerty pretende estender a cifra Vigenère original de 26 caracteres para uma cifra sensível a maiúsculas e minúsculas de 92 caracteres, 
+              incluindo dígitos e alguns outros símbolos. A cifra qwerty também altera a sequência de mapeamento usada na cifra de Vigenère. O mapeamento altera de uma sequência de alfabeto estendida para uma sequência de teclado qwerty estendida. 
+              Para descriptografar o código ocorre o mapeamento reverso que é do teclado QWERTY estendido para a sequência alfabética estendida. </p>
+          </div>
+        </div>
+      </div>
+    </section><!-- End SOBRE Section -->
+
+    <!-- ======= Why Us Section ======= -->
+    <section class="why-us">
+      <div class="container">
+        <h3 style="text-align: center; font-weight: bold;"> Os quatro princípios básicos da Criptografia:</h3>
+
+        <div class="row" style="margin-top: 50px;" >
+          <div  class="col-md-3" data-aos="fade-up" data-aos-delay="300">
+            <div class="box" style="text-align: center; height: 225px;">
+              <span>Confidencialidade</span>
+              <p style="margin-top: 10px;">Visa impedir a leitura não autorizada da mensagem.</p>
+            </div>
+          </div>
+
+          <div  class="col-md-3" data-aos="fade-up" data-aos-delay="300">
+            <div class="box" style="text-align: center; height: 225px;">
+              <span>Integridade</span>
+              <p style="margin-top: 10px;">Assegurar ao destinatário que a mensagem recebida não foi alterada de forma alguma em relação ao original.</p>
+            </div>
+          </div>
+
+          <div class="col-md-3" data-aos="fade-up" data-aos-delay="300">
+            <div class="box" style="text-align: center; height: 225px;">
+              <span>Autenticação</span>
+              <p style="margin-top: 10px;">Identificar ou verificar uma pessoa que afirma ser.</p>
+            </div>
+          </div>
+
+          <div  class="col-md-3" data-aos="fade-up" data-aos-delay="300">
+            <div class="box" style="text-align: center; height: 225px;">
+              <span>Não repúdio</span>
+              <p style="margin-top: 10px;">Um mecanismo para confirmar que o remetente realmente enviou esta mensagem.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Why Us Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="pseudocodigo" class="services">
+      <div class="container">
+
+        <div class="section-title">
+          <span>Pseudo-código</span>
+          <h2>PSEUDO-CÓDIGO</h2>
+          <p>Apresentação do pseudo-código relativo à cifra Qwerty</p>
+        </div>
+
+        <div class="janela">
+          <div class="iconJanela">
+            <div class="codeIcon">
+            <img src="../site/assets/img/minimize.png" style="width: 100%; height: 25px" onclick=minimizePseudo()>
+            <img src="../site/assets/img/maximize.png" style="width: 100%; height: 25px" onclick=maximizePseudo()>
+            <img src="../site/assets/img/cancel.png" style="width: 100%; height: 25px">
+          </div>
+          </div>
+          <div class="styleText" id="minimizarPseudo">
+              <pre>
+                <code>
+                  <h3>Encriptar</h3>
+              alfabeto[]={a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z}
+
+              qwerty[]={q,w,e,r,t,y,u,i,o,p,a,s,d,f,g,h,j,k,l,z,x,c,v,b,n,m}
+
+              texto = ler()
+
+              texto = eliminar espaços()
+
+              para i<-0 até ao comprimento (texto) faça
+
+              Para j<-0 até 26 faça
+
+              Se texto[i]==alfabeto[j] então
+
+              textocifrado += qwerty[j]
+
+              Imprimir(textocifrado)
+
+
+                  <h3>Desencriptar</h3>
+              alfabeto[]={a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z}
+
+              qwerty[]={q,w,e,r,t,y,u,i,o,p,a,s,d,f,g,h,j,k,l,z,x,c,v,b,n,m}
+
+              texto = ler()
+
+              texto = eliminar espaços()
+
+              para i<-0 até ao comprimento (texto) faça
+
+              Para j<-0 até 26 faça
+
+              Se texto[i]==qwerty[j] então
+
+              textoclaro += alfabeto[j]
+                      
+              Imprimir(textoclaro)
+                </code>
+              </pre>
+            </div>
+        </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="javascript" class="services">
+      <div class="container">
+
+        <div class="section-title">
+          <span>JavaScript</span>
+          <h2>JAVASCRIPT</h2>
+          <p>Apresentação do código javascript relativo à cifra Qwerty</p>
+        </div>
+
+        <div class="janela">
+          <div class="iconJanela">
+            <div class="codeIcon">
+            <img src="../site/assets/img/minimize.png" style="width: 100%; height: 25px" onclick=minimizeJava()>
+            <img src="../site/assets/img/maximize.png" style="width: 100%; height: 25px" onclick=maximizeJava()>
+            <img src="../site/assets/img/cancel.png" style="width: 100%; height: 25px">
+          </div>
+          </div>
+          <div class="styleText" id="minimizarJava">
+              <pre>
+                <code>
+                  $(function() {
+                    $(document).on('input','#txtencriptar',function () { 
+                      encriptar();
+                    });
+                    $(document).on('input','#txtdesencriptar',function () { 
+                        desencriptar();
+                      });
+                    var alfabeto = 'abcdefghijklmnopqrstuvwxyz'.split("");
+                    var qwerty = "qwertyuiopasdfghjklzxcvbnm".split("");
+      
+                    function encriptar() {
+                      var chars = $('#txtencriptar').val();
+                      var ciphertext = "";
+                      var indivChars = chars.split('');
+                      for (i = 0; i < indivChars.length; i++) {
+                        lowerChar = indivChars[i].toLowerCase();
+                        characterIndex = alfabeto.indexOf(lowerChar);
+                        if (characterIndex > -1) {
+                            ciphertext += qwerty[characterIndex];
+                        } else {
+                          ciphertext += indivChars[i];
+                        }
+                      }
+                      $('#txtdesencriptar').val(ciphertext);
+                    }
+      
+                    function desencriptar(){
+                      var chars = $('#txtdesencriptar').val();
+                      var ciphertext = "";
+                      var indivChars = chars.split(' ');
+                      for (i = 0; i < indivChars.length; i++) {
+                        var j = 0;
+                        while (j < indivChars[i].length) {
+                          charGroup = indivChars[i].substr(j, 1);
+                            characterIndex = qwerty.indexOf(charGroup.toLowerCase());
+                          if (characterIndex > -1) {
+                            ciphertext += alfabeto[characterIndex];
+                            j = j + 1;
+                          } else {
+                            ciphertext += charGroup.charAt(0);
+                            j = j + 1;
+                          }
+                        }
+                        if ((i + 1) < indivChars.length) {
+                          ciphertext += ' ';
+                        }
+                      }
+                      $('#txtencriptar').val(ciphertext);
+                    }
+                  });
+                </code>
+              </pre>
+            </div>
+        </div>
+    </div>
+    </section><!-- End Portfolio Section -->
+    
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team">
+      <div class="container">
+
+        <div class="section-title">
+          <span>Equipa</span>
+          <h2>Equipa</h2>
+          <p>Elementos do grupo do projeto de criptografia.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in">
+            <div class="member">
+              <img src="assets/img/team/team-1.jpg" alt="">
+              <h4>João Marques</h4>
+              <span>Nº 35118</span>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in">
+            <div class="member">
+              <img src="assets/img/team/team-2.jpg" alt="">
+              <h4>João Félix</h4>
+              <span>Nº 35126</span>
+             
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in">
+            <div class="member">
+              <img src="assets/img/team/team-3.jpg" alt="">
+              <h4>Vasco Paulo</h4>
+              <span>Nº 35139</span>
+             
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in">
+            <div class="member">
+              <img src="assets/img/team/team-4.jpg" alt="">
+              <h4>José Martins</h4>
+              <span>Nº 35121</span>
+             
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Team Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="experimentar" class="services">
+      <div class="container">
+
+        <div class="section-title">
+          <span>Experimenta a Cifra Qwerty</span>
+          <h2>Experimenta a Cifra Qwerty</h2>
+          <p>A cifra substitui cada letra do alfabeto pela letra que está no mesmo lugar do alfabeto num teclado ou numa máquina de escrever.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="150">
+            <div class="icon-box">
+              <div class="icon"><img src="../site/assets/img/lock.png" style="width: 100%; height: auto;"></div>
+              <h4>Mensagem a Encriptar</h4>
+               <textarea id="txtencriptar" class="form-control" name="message" rows="5" placeholder="Introduza aqui a sua mensagem!" required></textarea>
+            </div>
+          </div>
+
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="150">
+            <div class="icon-box">
+              <div class="icon"><img src="../site/assets/img/encryption-2.png" style="width: 100%; height: auto;"></div>
+              <h4>Mensagem a Desencriptar</h4>
+               <textarea id="txtdesencriptar" class="form-control" name="message" rows="5" placeholder="Introduza aqui a sua mensagem!" required></textarea>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="container">
+      <div class="copyright">
+        Projeto Final <strong><span>Criptografia</span></strong>. Informática Turma: B
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/day-multipurpose-html-template-for-free/ -->
+        Projeto Realizador por:
+        João Marques,
+        João Félix,
+        José Martins,
+        Vasco Paulo.
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
